@@ -293,9 +293,19 @@ section:nth-child(2n + 1) {
     .nav-menu a
     {display: none;}
    
-    #my-details-container {
-    width: 210px !important;
+    #my-details-container 
+    {
+    width: 250px !important;
     }
+    #contact-form-container 
+    {
+    width: 20% !important;
+    display:none;
+	}
+ 	#contact .social-icons li a i
+ 	{
+    font-size: 1rem !important;
+	}
 }
 
 #timeline-divider .timeline-traveller {
