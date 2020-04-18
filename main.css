@@ -11,7 +11,7 @@ body {
 #body-header {
     height: 65vh;
     opacity: 0.8;
-    background-image: url(2.jpg);
+    background-image: url(assets/2.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -201,7 +201,7 @@ section:nth-child(2n + 1) {
 .timeline-box {
     padding: 5px;
     width: 40%;
-    min-height: 150px;
+    min-height: 130px;
     position: relative;
     left: 5%;
     text-align: right;
@@ -243,14 +243,22 @@ section:nth-child(2n + 1) {
 .timeline-logo > img {
     width: 100%;
 }
-
 #timeline-divider {
     position: absolute;
     width: 0;
-    top: 10%;
+    top: 8%;
     left: 50%;
     border: 1px dashed #0096fa6b;
-    height: 66%;
+    height: 68%;
+    color: #433E3F;
+}
+#education #timeline-divider {
+    position: absolute;
+    width: 0;
+    top: 8%;
+    left: 50%;
+    border: 1px dashed #0096fa6b;
+    height: 75%;
     color: #433E3F;
 }
 @media screen and (max-width:600px)
@@ -306,6 +314,7 @@ section:nth-child(2n + 1) {
  	{
     font-size: 1rem !important;
 	}
+
 }
 
 #timeline-divider .timeline-traveller {
@@ -346,8 +355,8 @@ section:nth-child(2n + 1) {
     line-height: 20px;
 }
 
-.text-align-justify {
-    text-align: justify;
+.text-align-right {
+    text-align: right;
 }
 
 
