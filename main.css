@@ -4,12 +4,16 @@ body {
     font-size: 30px;
 }
 
-
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
 
 /* Body Header */
 
 #body-header {
-    height: 65vh;
+    height: 85vh;
     opacity: 0.8;
     background-image: url(assets/2.jpg);
     background-size: cover;
@@ -142,6 +146,11 @@ section:nth-child(2n + 1) {
     border-radius: 50%;
     border: 3px solid white;
     box-shadow: 1px 1px 10px 2px lightgrey;
+    /* transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%); */
 }
 
 #about-para {
@@ -157,7 +166,10 @@ section:nth-child(2n + 1) {
 
 
 /*Skills Section*/
-
+#skills, #about, #contact, #education, #experience , #portfolio, #contact{
+    display: flex;
+    flex-direction: column;
+}
 .skills-display {
     width: 75%;
     padding: 10px;
@@ -323,6 +335,7 @@ section:nth-child(2n + 1) {
     position: sticky;
     top: 135px;
     z-index: 2;
+    font-size: 30px;
 }
 
 #timeline-divider i {
@@ -397,6 +410,7 @@ section:nth-child(2n + 1) {
     color: transparent;
     text-align: center;
     padding: 10px;
+    font-size: 30px;
 }
 
 .portfolio-image-container:hover {
@@ -441,6 +455,10 @@ section:nth-child(2n + 1) {
     color: white;
     font-weight: 550;
     font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 80px;
 }
 
 #contact-form-container {
